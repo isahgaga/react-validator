@@ -1,7 +1,7 @@
 {
-  "name": "react-validator",
+  "name": "input-validator-react",
   "version": "1.0.0",
-  "description": "A simple synchronous react form-input validator",
+  "description": "A simple synchronous validator for form-inputs in React.",
   "main": "src/index.js",
   "repository": {
     "type": "git",
