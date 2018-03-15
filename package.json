@@ -1,0 +1,46 @@
+{
+  "name": "react-validator",
+  "version": "1.0.0",
+  "description": "A simple synchronous react form-input validator",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isahgaga/react-validator.git"
+  },
+  "keywords": [
+    "form",
+    "input",
+    "validator"
+  ],
+  "author": "Isa Ibrahim <isahgaga@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isahgaga/react-validator/issues"
+  },
+  "homepage": "https://github.com/isahgaga/react-validator#readme",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.2.2",
+    "babel-loader": "7.1.4",
+    "babel-plugin-transform-es2015-destructuring": "6.23.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "eslint": "4.18.2",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.7.0",
+    "eslint-watch": "3.1.3",
+    "prop-types": "15.6.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "webpack": "4.1.1"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build"
+  }
+}
