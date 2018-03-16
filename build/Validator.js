@@ -185,7 +185,7 @@ var Validator = function (_Component) {
                 return error;
             }
             if (rule === 'match') {
-                if (value !== fields.password) {
+                if (value !== fields.match) {
                     return rule;
                 }
                 return error;
