@@ -17,7 +17,7 @@ import React,{Component} from 'react'
 class LoginForm extends Component{
    constructor(props){
         super(props);
-        this.state={emai:''}
+        this.state={email:''}
     }
     componentDidMount() {
         const msg = {
@@ -50,7 +50,7 @@ class LoginForm extends Component{
         return(
             <form>
               <div>
-                <input type="email" name="email" id="email" value={this.state.data.Name} onChange={this.handleInputChange.bind(this)} />
+                <input type="email" name="email" id="email" value={this.state.email} onChange={this.handleInputChange.bind(this)} />
               </div>
               <span>{this.props.err.email}</span>
             </form>
